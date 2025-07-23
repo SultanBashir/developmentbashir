@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Grid</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Product Grid</h1>
+
+    <div class="controls">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+      </select>
+      <input type="file" id="upload" accept=".json"/>
+      <button id="downloadBtn">Download JSON</button>
+    </div>
+
+    <div id="productGrid" class="grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
