@@ -3,23 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Product Grid</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Abdullah | Project Manager</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Interactive Product Grid</h1>
+  <header>
+    <h1>Abdullah</h1>
+    <p>Creative Project Manager & Renovation Expert</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <div class="controls">
-      <select id="categoryFilter">
-        <option value="all">All Categories</option>
-      </select>
-      <input type="file" id="upload" accept=".json"/>
-      <button id="downloadBtn">Download JSON</button>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a versatile professional with strong skills in project management, home renovations, and sports development. I help clients turn ideas into reality by leading projects from planning to execution. Let’s build something impactful together.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Home Renovation – Kitchen Remodel</h3>
+      <p>Managed full kitchen redesign with modern finishes and energy-efficient appliances.</p>
     </div>
+    <div class="project">
+      <h3>Sports Coaching – Youth Training Program</h3>
+      <p>Developed a structured training curriculum for youth athletes.</p>
+    </div>
+    <div class="project">
+      <h3>Event Management – Local Business Expo</h3>
+      <p>Coordinated vendors, managed logistics, and boosted local visibility for 30+ businesses.</p>
+    </div>
+  </section>
 
-    <div id="productGrid" class="grid"></div>
-  </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Interested in working together? Let’s connect.</p>
+    <a href="mailto:your@email.com">your@email.com</a>
+    <br />
+    <a href="resume.pdf" download>📄 Download My Resume</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Abdullah. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
